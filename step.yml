@@ -64,24 +64,43 @@ toolkit:
 
 
 inputs:
-  - example_step_input: Default Value - you can leave this empty if you want to
+  - API_AUTH_TOKEN: ""
     opts:
-      title: "Example Step Input"
-      summary: Summary. No more than 2-3 sentences.
+      title: "API auth token"
+      summary: API auth token.
       description: |
-        Description of this input.
-
-        Can be Markdown formatted text.
+        API auth token.
       is_expand: true
       is_required: true
       value_options: []
 
-outputs:
-  - EXAMPLE_STEP_OUTPUT:
+  - APP_SLUG: ""
     opts:
-      title: "Example Step Output"
-      summary: Summary. No more than 2-3 sentences.
+      title: "App slug"
+      summary: App slug.
       description: |
-        Description of this output.
+        App slug.
+      is_expand: true
+      is_required: true
+      value_options: []
 
-        Can be Markdown formatted text.
+  - WORKFLOW_NAME: ""
+    opts:
+      title: "App slug"
+      summary: App slug.
+      description: |
+        App slug.
+      is_expand: true
+      is_required: true
+      value_options: []
+
+  - ARTIFACT_NAME: ""
+    opts:
+      title: "artefact name"
+      summary: artefact name.
+      description: |
+        artefact name.
+      is_expand: true
+      is_required: true
+      value_options: []
+
